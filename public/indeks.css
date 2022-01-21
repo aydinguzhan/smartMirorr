@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family:'Courier New', Courier, monospace;
+    color: #fff;
+    
+}
+
+.container{
+    display:flex;
+    align-items: left;
+    justify-content:left;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    padding: 10px;
+   
+}
+.container2{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    
+}
+.container3{
+    display:flex;
+    justify-content:space-between;
+    align-content: left;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    
+}
+.box{
+    width: 50vw;
+    
+    
+}
+#one{
+    display:flex;
+    justify-content:start;
+    align-items: right;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size:5.5vw;
+    
+
+   
+}
+
+#two{
+    display:flex;
+    justify-content:start;
+    align-items: right;
+    font-family:'Courier New', Courier, monospace;
+    font-size:5vw;
+}
+#weather{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   
+}
+
+#weatherOne{
+    display:flex;
+    justify-content:right;
+    font-size:8.5vw;
+    font-weight: 450;
+    
+
+}
+#weatherTwo{
+    font-size: 2.7vw;
+    text-align: right;
+    display: flex;
+    justify-content:right;
+}
+
+#three{
+    display:flex;
+    justify-content:end;
+    align-items: center;
+}
+#first{
+    display:flex;
+    justify-content:center;
+    align-items: end;
+    text-align: center;
+    width:100vw;
+    height: 100vw;
+    font-size: 4.5vw;
+    padding-top:1vw;
+}
+#second{
+    display:flex;
+    justify-content:left;
+    align-items: flex-end;
+    height: 18vw;
+    font-size: 2vw;
+}
+#endOne{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 3vw;
+    margin-top:15vh;
+    font-family:'Courier New', Courier, monospace;
+    width: 100%;
+}
